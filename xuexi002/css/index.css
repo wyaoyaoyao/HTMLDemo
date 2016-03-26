@@ -11,6 +11,9 @@ body,html{
 	box-sizing:border-box;
 }
 
+.today{
+	display:inline-block;
+}
 .w987{
 	width: 978px;
 	margin: 0 auto;
@@ -69,4 +72,16 @@ body,html{
 	padding: 0 0 0 15px;
 	font-size: 14px;
 	line-height: 21px;
+}
+
+
+/**
+页脚样式
+*/
+
+.footer{
+	text-align: center;
+	padding: 30px 0;
+	line-height: 30px;
+	color: #fff;
 }
