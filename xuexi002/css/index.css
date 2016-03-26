@@ -13,6 +13,38 @@ body,html{
 
 .today{
 	display:inline-block;
+	color:#ffffff;
+	border:1px solid #57addd;
+	background:#1388c8;
+	font-size:14px;
+	border-radius:12px;
+	padding:6px 19px 7px 8px;
+	font-weight:bold;
+	margin-top:390px;
+}
+.yellow{
+	color:#f5d91a;
+}
+.search{
+	display:block;
+	float:right;
+	width:237px;
+	background:#ffffff;
+	height:40px;
+	font-size:16px;
+	border-radius:20px;
+	margin-top:390px;
+	background-image:url('../img/fangda.png');
+	background-repeat:no-repeat;
+
+}
+.blue{
+	display:inline-block;
+	background:#007cc0;
+	padding:4px 6px;
+	float:right;
+	margin:7px;
+	border-radius:14px;
 }
 .w987{
 	width: 978px;
