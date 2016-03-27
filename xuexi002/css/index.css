@@ -1,4 +1,4 @@
-body,html,ul,li,h2{
+body,html,ul,li{
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
@@ -36,7 +36,7 @@ body,html{
 	margin-top:390px;
 	background-image:url('../img/fangda.png');
 	background-repeat:no-repeat;
-
+	border:1px solid #c9c9c9;
 }
 .blue{
 	display:inline-block;
@@ -45,6 +45,7 @@ body,html{
 	float:right;
 	margin:7px;
 	border-radius:14px;
+	color:#ffffff;
 }
 .w987{
 	width: 978px;
@@ -86,6 +87,13 @@ body,html{
 	padding: 10px 10px 10px 10px;
     color: azure;
 }
+
+.box_list h2 a{
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
 .box_list ul{
 	padding: 10px 0 15px 0;
 }
@@ -103,17 +111,40 @@ body,html{
 	color: #333333;
 	padding: 0 0 0 15px;
 	font-size: 14px;
-	line-height: 21px;
+	line-height: 25px;
+	text-decoration:none;
+	font-weight:bold;
 }
 
+/* 虚线*/
+.dashed{
+	display:block;
+	border:1px dashed #d0d0d0;
+	border-top:0px;
+	margin:-10px 0 0 70px;
+	width:70%;
+}
 
-/**
-页脚样式
-*/
+.font{
+	font-size:12px;
+	float:right;
+}
+
+.lianjie{
+	border: 1px solid #54acdd;
+    background: #1187c8;
+    text-align: center;
+    margin: 12px auto;
+    padding: 5px 0 6px 0;
+    width: 50%;
+    color: #ffffff;
+    border-radius:13px;
+}
+/**页脚样式*/
 
 .footer{
 	text-align: center;
-	padding: 30px 0;
-	line-height: 30px;
-	color: #fff;
+	padding: 10px 0;
+	line-height: 23px;
+	color: #01598a;
 }
