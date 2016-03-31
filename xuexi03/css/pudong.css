@@ -2,6 +2,9 @@ body,html,ul{
 	margin:0;
 	padding:0;
 }
+ul li{
+	list-style:none;
+}
 body,html{
 	background-color:#2194d3;
 }
@@ -58,4 +61,46 @@ body,html{
 	width:50px;
 	text-align:center;
 	margin:3px 4px;
+}
+.content{
+	background:#ffffff;
+	border-radius:9px;
+	min-height:100px;
+	padding:10px;
+	margin:20px auto;
+}
+.content:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.block{
+	width:50%;
+	float:left;
+	padding:10px;
+}
+.block ul{
+	background:#e8f4fb;
+	padding:10px  0 15px 0;
+}
+.block li a{
+	display:block;
+	color:#333333;
+	font-size:14px;
+	line-height:25px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 0 0 10px;
+}
+.block li a:before{
+	content:'';
+	display:inline-block;
+	height:6px;
+	width:6px;
+	background-color:#2194d3;
+	margin-right:10px;
+	border-radius:50%;
+}
+.block h2 a{
+	font-size:14px;
 }
