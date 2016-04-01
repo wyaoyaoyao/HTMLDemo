@@ -103,4 +103,38 @@ body,html{
 }
 .block h2 a{
 	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#0076b7;
+}
+.block h2{
+	margin:0 5px 20px 10px;
+}
+.dashed{
+	display:block;
+	border:1px dashed #d0d0d0;
+	width:80%;
+	margin-left:75px;
+	margin-top:-12px;
+}
+.font{
+	font-size:12px;
+	float:right;
+	margin-top:-12px;
+}
+.catenate{
+	border:1px solid #54acdd;
+	background:#1187c8;
+	text-align:center;
+	margin:10px auto;
+	width:50%;
+	font-size:14px;
+	color:#ffffff;
+	padding:5px;
+	border-radius:13px;
+}
+.footer{
+	text-align:center;
+	color:#01598a;
+	line-height:20px;
 }
