@@ -1,0 +1,35 @@
+
+
+html,body,ul{
+	margin:0;
+	padding:0;
+}
+body,html{
+	background:#2194d3;
+}
+*{
+	box-sizing:border-box;
+}
+.toubu{
+	background-image:url(../img/fangda_1.png);
+	height:460px;
+	background-repeat:repeat-x;
+}
+.header{
+	background-image:url(../img/fangda.png);
+	background-position:center 0;
+	background-repeat:no-repeat;
+	height:460px;
+}
+.w1280{
+	width:1280px;
+	margin:0 auto;
+}
+.today{
+	border:1px solid #56addd;
+	background:#1488c8;
+	color:#ffffff;
+}
+.yellow{
+	color:#ffde00;
+}
